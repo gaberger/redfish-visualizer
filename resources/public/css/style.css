@@ -1,0 +1,11 @@
+/* some style */
+
+.container {
+    max-width: 3000px;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
