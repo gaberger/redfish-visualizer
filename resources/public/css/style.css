@@ -1,5 +1,19 @@
 /* some style */
 
+nav {
+   background-color: #027EC0
+}
+
+.page-footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:60px;
+   width:100%;
+   background-color: #027EC0
+}
+
+
 .container {
     max-width: 3000px;
     min-width: 75%;
@@ -9,3 +23,161 @@
     padding-right: 20px;
     width: 100%;
 }
+
+
+.box {
+    background: #f2f5f5;
+    padding: 20px;
+    border: 1px solid #dde4e6;
+}
+
+.divider {
+    margin: 20px;
+}
+
+.dell-logo {
+  display: inline-block;
+  width: 121px;
+  height: 28px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  background: url(/images/DellEMC_Logo_Hz_Gry_rgb.png) 0 0;
+    background-repeat:no-repeat;
+    background-position: 0 0px;
+    background-size: 50px 50px;
+}
+
+
+.center-div {
+  position:absolute;
+  color:#fff;
+  top:50%;
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+
+[for="login"] {
+    font-size: 20px;
+    color: #fff
+}
+
+[for="password"] {
+    font-size: 20px;
+    color: #fff
+}
+div#login {
+   color: #fff;
+}
+
+input#login {
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+
+input#password {
+   color: #fff;
+   border-bottom: 1px solid #fff;
+}
+/*
+
+.control-label  {
+    font-size: 20px;
+    color: #fff
+}
+
+  background-position: 0 -50px;
+  background-size: 135px 130px;
+  background-repeat:no-repeat;
+      background-color:transparent;
+
+
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+div {
+    display: block;
+}
+
+
+.window {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch;
+    background-color: #ECEFF1;
+
+}
+
+
+.container {
+    max-width: 1280px;
+    min-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.header {
+    border-bottom: solid 2px #ecf0f1;
+    margin: 0 0 16.5px;
+    padding: 15px 0;
+}
+
+.nav {
+    max-width: 250px;
+    background-color: #ECEFF1;
+}
+
+.body {
+    max-width: 900px;
+}
+
+/*
+.container {
+  margin-top: 48px;
+  margin-botton: 72px;
+}
+*/
+
+
+
+/*
+nav.dell{
+ background-color: #13519b;
+}
+
+
+.dell-logo {
+  display: inline-block;
+  width: 121px;
+  height: 28px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  background: url(/images/delltech.png) 0 0;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-position: 0 -50px;
+  background-size: 135px 78px;
+}
+
+.sub-title {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.7rem;
+  margin-left: 3px;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+*/
