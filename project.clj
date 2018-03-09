@@ -17,7 +17,8 @@
                  [rum "0.10.8" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [cljs-ajax "0.7.3"]
                  [cljsjs/vis "4.20.1-0"]
-                 [com.taoensso/timbre "4.10.0"]]
+                 [com.taoensso/timbre "4.10.0"]
+                 [com.cemerick/url "0.1.1"]]
 
   :plugins [[lein-figwheel "0.5.15"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
