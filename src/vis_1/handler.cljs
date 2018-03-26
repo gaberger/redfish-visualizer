@@ -4,7 +4,7 @@
             [taoensso.timbre :as timbre :refer [info]]
             [ajax.core :refer [GET POST ajax-request json-request-format json-response-format]]
             [vis-1.state :refer [app-state]]
-            [vis-1.utils :refer [pp add-nodes update-service-root add-node-dataset node-count]]))
+            [vis-1.utils :refer [add-nodes update-service-root add-node-dataset node-count]]))
 
 
 
@@ -25,7 +25,6 @@
     (add-nodes paths context)
     (swap! app-state assoc :selected response)))
 
-
 (defn error-handler [response]
   (info "Error getting resource " response))
 
@@ -43,16 +42,8 @@
                  :response-format :json
                  :handler         handler
                  :error-handler   error-handler}]
-    ;:headers {"WWW-Authenticate" (str "Basic realm=\"" "Fake" "\"")
-    ;          "Authorization"    (auth-header "root" "calvin")}}]
-    ;options (if auth (assoc options :headers {"WWW-Authenticate" (str  "Basic realm=\"" "Fake" "\"")
-    ;                                          "Authorization" (auth-header "root" "calvin")}
-    ;options (merge options {:headers {"WWW-Authenticate" (str "Basic realm=\"" "Fake" "\"")
-    ;                                  "Authorization"    (auth-header "root" "calvin")}})
     (GET resource options)))
 
-;paths (select-keys response (remove #(re-find (js/RegExp. "@odata*") %)
-;                                    (keys response)))]))
 
 
 

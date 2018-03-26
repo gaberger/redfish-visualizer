@@ -1,23 +1,133 @@
 /* some style */
 
+.top {
+    height: 40px;
+    /* margin-left: 250px; */
+}
+
+.ribbon {
+
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(0, 188, 212);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    position: fixed;
+    z-index: 1101;
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    top: 40px;
+
+}
+
+.main-body {
+    padding-top: 64px;
+    min-height: auto;
+    /* margin-left: 20px; */
+}
+
+
+.footer {
+    padding: 72px 24px 72px 256px;
+    box-sizing: border-box;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    position: fixed;
+}
+
+.div {
+    display: block;
+}
+
+.nav-bar {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 0px;
+    height: 100%;
+    width: 256px;
+    position: fixed;
+    z-index: 1200;
+    left: 0px;
+    top: 0px;
+    transform: translate(0px, 0px);
+    overflow: auto;
+
+
+    background-image:url(/images/grid-sidebar.png);
+    // height: auto;
+    // width: 340px;
+    // top: 60px;
+   //  background-color: #027dc1ba;
+    // background-repeat-y: no-repeat;
+    // background-repeat-x: no-repeat;
+   //  background-size: cover;
+}
+
+
 nav {
    background-color: #027EC0
 }
 
+.app-menu {
+ margin-top: 60px;
+ background-image:url(/images/grid-sidebar.png);
+ height: auto;
+ width: 340px;
+ top: 60px;
+ background-color: #027dc1ba;
+ background-repeat-y: no-repeat;
+ background-repeat-x: no-repeat;
+ background-size: cover;
+ /* background-position-x: 0%;
+ background-repeat-x: no-repeat;
+ background-position-x: 0;
+ background-size: initial;
+ background-origin: initial;
+
+/*
+
+ background-attachment: initial;
+ background-clip: initial;
+*/
+}
+
+.drawer-menu {
+ background-image:url(/images/grid-sidebar.png);
+ height: 1356;
+ top: 64px;
+}
+
+.main-body2 {
+    margin-left: 240px;
+}
+
 .page-footer {
    position:fixed;
-   left:0px;
+   /* left: 240px; */
    bottom:0px;
    height:60px;
    width:100%;
-   background-color: #027EC0
+   /* margin-left 450px; */
+   background-color: #027EC0;
+   /* padding: 72px 24px 72px 256px; */
+   /* box-sizing: border-box; */
 }
+
 
 
 .container {
     max-width: 3000px;
     min-width: 75%;
-    margin-left: auto;
+    margin-left: 120px;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;

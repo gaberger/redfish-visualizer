@@ -9,7 +9,7 @@
   :min-lein-version "2.7.1"
 
   :dependencies [[org.clojure/clojure "1.9.0"]
-                 [org.clojure/clojurescript "1.9.946"]
+                 [org.clojure/clojurescript "1.9.908"]
                  [org.clojure/core.async  "0.4.474"]
                  [cljsjs/react-dom "15.6.2-4"]
                  [cljsjs/react "15.6.2-4"]
@@ -21,6 +21,7 @@
                  [com.taoensso/timbre "4.10.0"]
                  [rum-reforms "0.4.3"]
                  [cljs-http "0.1.41"]
+                 [medley "1.0.0"]
                  [com.cemerick/url "0.1.1"]]
 
   :plugins [[lein-figwheel "0.5.15"]

@@ -13,10 +13,10 @@
                           :wf-alert      0
                           :eventdb       []}))
 
-;(defonce app-state (atom {}))
 
 (defn add-graph []
   {:nodes []
    :edges []})
 
-(def node-state (atom (add-graph)))
+
+(defonce node-state (atom (add-graph)))

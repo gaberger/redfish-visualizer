@@ -19,9 +19,8 @@
     <orderEntry type="library" name="Leiningen: binaryage/devtools:0.9.9" level="project" />
     <orderEntry type="library" name="Leiningen: binaryage/env-config:0.2.2" level="project" />
     <orderEntry type="library" name="Leiningen: cheshire:5.7.1" level="project" />
-    <orderEntry type="library" name="Leiningen: cider/cider-nrepl:0.14.0" level="project" />
     <orderEntry type="library" name="Leiningen: clj-stacktrace:0.2.8" level="project" />
-    <orderEntry type="library" name="Leiningen: clj-time:0.7.0" level="project" />
+    <orderEntry type="library" name="Leiningen: clj-time:0.11.0" level="project" />
     <orderEntry type="library" name="Leiningen: cljs-ajax:0.7.3" level="project" />
     <orderEntry type="library" name="Leiningen: cljs-http:0.1.41" level="project" />
     <orderEntry type="library" name="Leiningen: cljs-react-material-ui:0.2.48" level="project" />
@@ -44,8 +43,8 @@
     <orderEntry type="library" name="Leiningen: com.google.code.gson/gson:2.7" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.errorprone/error_prone_annotations:2.0.18" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.guava/guava:20.0" level="project" />
-    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-externs:v20170910" level="project" />
-    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-unshaded:v20170910" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-externs:v20170806" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-unshaded:v20170806" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.jsinterop/jsinterop-annotations:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:3.0.2" level="project" />
     <orderEntry type="library" name="Leiningen: com.googlecode.json-simple/json-simple:1.1.1" level="project" />
@@ -65,7 +64,8 @@
     <orderEntry type="library" name="Leiningen: hawk:0.2.11" level="project" />
     <orderEntry type="library" name="Leiningen: http-kit:2.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: io.aviso/pretty:0.1.33" level="project" />
-    <orderEntry type="library" name="Leiningen: joda-time:2.3" level="project" />
+    <orderEntry type="library" name="Leiningen: joda-time:2.8.2" level="project" />
+    <orderEntry type="library" name="Leiningen: medley:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: net.cgrand/parsley:0.9.3" level="project" />
     <orderEntry type="library" name="Leiningen: net.cgrand/regex:1.1.0" level="project" />
     <orderEntry type="library" name="Leiningen: net.cgrand/sjacket:0.1.1" level="project" />
@@ -78,7 +78,7 @@
     <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore-nio:4.4.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore:4.4.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.9.0" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:1.9.946" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:1.9.908" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.4.474" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.memoize:0.5.9" level="project" />
@@ -90,16 +90,13 @@
     <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.1.143" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer.jvm:0.7.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.analyzer:0.6.9" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.namespace:0.2.11" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.10" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:1.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.12" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:1.0.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.javassist/javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Leiningen: org.mozilla/rhino:1.7R5" level="project" />
     <orderEntry type="library" name="Leiningen: org.msgpack/msgpack:0.6.12" level="project" />
     <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-all:4.2" level="project" />
-    <orderEntry type="library" name="Leiningen: org.tcrawley/dynapath:0.2.4" level="project" />
     <orderEntry type="library" name="Leiningen: pathetic:0.5.0" level="project" />
-    <orderEntry type="library" name="Leiningen: pjstadig/humane-test-output:0.8.0" level="project" />
     <orderEntry type="library" name="Leiningen: reforms:0.4.3" level="project" />
     <orderEntry type="library" name="Leiningen: ring-cors:0.1.11" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-codec:1.0.1" level="project" />
@@ -108,7 +105,6 @@
     <orderEntry type="library" name="Leiningen: rum:0.10.8" level="project" />
     <orderEntry type="library" name="Leiningen: sablono:0.8.0" level="project" />
     <orderEntry type="library" name="Leiningen: simple-lein-profile-merge:0.1.4" level="project" />
-    <orderEntry type="library" name="Leiningen: spyscope:0.1.5" level="project" />
     <orderEntry type="library" name="Leiningen: strictly-specking-standalone:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: suspendable:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: tigris:0.1.1" level="project" />
