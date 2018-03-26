@@ -1,10 +1,10 @@
-(ns vis-1.handler
+(ns redfish_visualizer.handler
   (:require
             [cemerick.url :refer [url url-encode]]
             [taoensso.timbre :as timbre :refer [info]]
             [ajax.core :refer [GET POST ajax-request json-request-format json-response-format]]
-            [vis-1.state :refer [app-state]]
-            [vis-1.utils :refer [add-nodes update-service-root add-node-dataset node-count]]))
+            [redfish_visualizer.state :refer [app-state]]
+            [redfish_visualizer.utils :refer [add-nodes update-service-root add-node-dataset node-count]]))
 
 
 

@@ -1,4 +1,4 @@
-(ns vis-1.state)
+(ns redfish_visualizer.state)
 
 
 (defonce app-state (atom {:login         nil

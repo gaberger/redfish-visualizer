@@ -1,7 +1,7 @@
-(ns vis-1.core
+(ns redfish_visualizer.core
   (:require
-    [vis-1.state :refer [app-state]]
-    [vis-1.components :refer [home-page]]
+    [redfish_visualizer.state :refer [app-state]]
+    [redfish_visualizer.components :refer [home-page]]
     [rum.core :as rum :refer [defc]]))
 
 (enable-console-print!)

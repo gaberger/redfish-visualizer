@@ -1,7 +1,7 @@
-(ns vis-1.utils
+(ns redfish_visualizer.utils
   (:require
     [rum.core :as rum]
-    [vis-1.state :refer [node-state app-state]]
+    [redfish_visualizer.state :refer [node-state app-state]]
     [cemerick.url :refer [url url-encode]]
     [cljs.pprint :as pprint]
     [rum.core :as rum :refer [defc defcs]]

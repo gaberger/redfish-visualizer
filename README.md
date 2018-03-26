@@ -1,10 +1,12 @@
-# vis-1
+# Redfish Visualizer
 
-FIXME: Write a one-line description of your library/project.
+Sample Clojurescript application to visualized Redfish endpoint.
+
+Currently tested with Katfish v0.1.17
 
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+RedFish provides a hyper-media based api to navigate the entire model hierarchy. The attempt here is to leverage that to autodiscover the RedFish entity classes and visualize using Vis.JS graph engine
 
 ## Setup
 
@@ -34,6 +36,6 @@ get live reloading, nor a REPL.
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2018 DELL-EMC
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.

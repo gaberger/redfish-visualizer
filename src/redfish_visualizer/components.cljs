@@ -1,10 +1,10 @@
-(ns vis-1.components
+(ns redfish_visualizer.components
   (:require
-    [vis-1.state :refer [app-state node-state add-graph]]
-    [vis-1.utils :as utils :refer [update-network footer-template jet-icon]]
+    [redfish_visualizer.state :refer [app-state node-state add-graph]]
+    [redfish_visualizer.utils :as utils :refer [update-network footer-template jet-icon]]
     [taoensso.timbre :as timbre :refer [info]]
     [cemerick.url :refer [url url-encode]]
-    [vis-1.handler :refer [child-handler root-handler get-resource]]
+    [redfish_visualizer.handler :refer [child-handler root-handler get-resource]]
     [cljs-react-material-ui.rum :as ui]
     [cljs-react-material-ui.icons :as icons]
     [rum.core :as rum :refer [defc defcs]]
@@ -39,7 +39,7 @@
      (let [[content-ref] (:rum/args state)
            _ (info "node-state-init")
            uri-state (rum/cursor app-state :url)
-           node-state vis-1.state/node-state
+           node-state redfish_visualizer.state/node-state
            data {:nodes []
                  :edges []}
            options {:autoResize true
